@@ -1,0 +1,90 @@
+NodeJs
+Introduction to Node JS:-
+1. What is Node.js?
+•	Node.js is a server-side runtime environment that allows JavaScript to run outside the browser.
+•	It is built on the V8 JavaScript engine, which makes it fast and efficient.
+•	Unlike traditional backend technologies, Node.js operates on a non-blocking, event-driven architecture, making it ideal for handling multiple requests simultaneously.
+•	Node JS Supports Modules(libraries)[Pre-defined &User Defined libraries]
+Modules – There are totally 11Imp types of modules in Node They are
+1.	http: used to build the http servers
+2.	fs – file system [used to interact with the flat files]
+I.	text-files
+II.	xml files
+III.	Json files etc.
+3.	Express – used to develop the Rest services [GET, POST, PUT, DELETE…]
+4.	MongoDB – used to interact with the mongo DB database.(without schema) that is without rules and regulations
+Mongoose – connecting to Mongo DB with Schema (rules and regulations)
+5.	MY SQL – used to interact with the My SQL Data Base
+6.	Ora DB – used to interact with the Oracle database
+7.	SQL – used to interact with the SQL server
+8.	Multer – used to upload and download the images from the server
+9.	Socket.io – used to implement the chat applications like [WhatsApp]
+10.	CORS – There are multiple port numbers and we should enable communication b/w different port numbers then CORS Error will Occurs to avoid this we use CORS module.
+11.	Body-parser – it will help to receive the data from client [Froent-End] Application
+12.	JWT– it is used to implement the token-based authentication. 
+13.	JWT-simple – this module is used to implement the token based application…….still there are so many modules and these are basic
+We need to download above modules with “npm” or “yarn” tool
+	Npm stands for Node Packaging manager and Npm present in NodeJS, it will download multiple modules in Synchronous tool
+ if 1st module downloads successfully it goes to download 2nd module.
+	Yarn is Asynchronous tool which will download in parallel, given by Facebook
+	Yarn tool will takes less time comparing to npm,takes much high band width network.
+2. What is the usage of Node.js?
+•	Node.js is widely used for server-side development, including:
+1.	HTTP Servers – Used to handle web requests and serve content.
+2.	TCP Servers – Used for real-time communication, such as chat applications.
+•	It is extensively used in microservices architecture, where small services communicate via APIs.
+•	Node.js is preferred for real-time applications like chat apps, online gaming, and live-streaming services.
+3. How to Develop Node.js Servers?
+•	There are two primary ways to develop servers in Node.js:
+1. JavaScript (JS)
+•	JavaScript is a scripting language mainly used for frontend development.
+•	It is loosely typed and does not have built-in support for Object-Oriented Programming (OOP).
+•	Suitable for small-scale applications but lacks some advanced programming features.
+2. TypeScript (TS)
+•	TypeScript is a strongly typed programming language developed by Microsoft.
+•	It supports OOP concepts like classes, interfaces, and inheritance, making it more scalable.
+•	TypeScript offers better tooling support, including IDE features like auto-completion and type-checking.
+•	Industry preference: TypeScript is widely adopted in enterprise applications due to its maintainability and scalability.
+Why Prefer TypeScript Over JavaScript?
+•	TypeScript reduces runtime errors by catching issues during compilation.
+•	It improves code maintainability and team collaboration in large projects.
+•	TypeScript integrates seamlessly with modern frameworks like NestJS, which is built on top of Node.js for enterprise applications.
+Bonus Point: Serverless Applications
+•	Node.js is ideal for serverless computing, where functions run in cloud environments like AWS Lambda, Azure Functions, and Google Cloud Functions.
+•	Serverless applications eliminate the need to manage infrastructure, reducing costs and improving scalability.
+Topics
+1)	Express JS :-  It is a Framework which is there in Node JS and it is a Powerful Topic In Node JS
+It is used to Develop the Rest Services Like
+[GET,POST,PUT,HEAD,TRACE,----Requests]                                                                           
+2)	Data Bases CRUD Operations :- 4Types DB we are Going to see
+1)	MongoDB -> It is a No SQL And it is a Json based Data Base
+2)	MYSQL
+3)	SQL Server
+4)	ORACLE
+3)	Middlewares :- It is used For Security Type  
+4)	Authentication :- JSON Web Token[JWT]
+5)	Http Server
+6)	Chat App – like Client server App
+7)	Multer Module :- it deals with Image Upload and Image Download
+8)	Email Sending 
+9)	Integrations – 1) Angular 2) REACT 3) Vue JS
+Class-2
+Software Installations –
+1.	Download and Install Node JS 
+URL - nodejs.org/en/downloads/
+File: node-v14.15.1-x64.msi
+node -v , npm -v //For checking versions
+2.	Install yarn tool
+o	npm install -g yarn
+•	npm stands for node packaging manager
+•	-g stands for global instalization.
+3.	Download And install visual Studio Code
+Downloading the Modules/libraries  
+Note-The Downloaded modules will goes to the “node-modules” folder in current path
+	npm install express mongodb mongose mysql --save [--save will saves the version of particular module] // it is oldest way to download
+	yarn add express mongodb mongoose mysql –save //new way and suggestable way to download the modules
+Create one folder in desktop[APPS] And open the folder in vs-code and download the required modules in this Folder
+
+
+
+
