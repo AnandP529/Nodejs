@@ -1,0 +1,12 @@
+{
+    "name": "anand",
+    "version": "1.22.22",
+    "dependencies": {
+        "@types/body-parser": "^1.19.5",
+        "@types/dotenv": "^8.2.3",
+        "@types/express": "^5.0.1",
+        "body-parser": "^2.2.0",
+        "dotenv": "^16.4.7",
+        "express": "^5.1.0"
+    }
+}
