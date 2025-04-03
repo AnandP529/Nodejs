@@ -1,0 +1,14 @@
+{
+    "name": "anand",
+    "version": "1.22.22",
+    "dependencies": {
+        "@types/body-parser": "^1.19.5",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.1",
+        "@types/mongodb": "^4.0.7",
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "mongodb": "^6.15.0"
+    }
+}
