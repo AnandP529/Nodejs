@@ -7,7 +7,7 @@ import * as mongodb from "mongodb";
 let anand = mongodb.MongoClient;
 let fetch :any = express.Router().get("/", async (req: any, res: any) => {
     try {
-        let connection = await anand.connect("mongodb+srv://Anand:your-password@cluster0.izcxmsa.mongodb.net/Nodejs?retryWrites=true&w=majority");
+        let connection = await anand.connect("mongodb+srv://Anand:Anand%403498@cluster0.izcxmsa.mongodb.net/Nodejs?retryWrites=true&w=majority");
 
         let db = connection.db("Nodejs");
         let data = await db.collection("products").find({}).toArray(); // Fetch all documents
@@ -18,6 +18,7 @@ let fetch :any = express.Router().get("/", async (req: any, res: any) => {
         res.status(500).send("Failed to fetch data");
     }
 });
+
 
 
 export default fetch;
