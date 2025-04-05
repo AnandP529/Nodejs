@@ -1,0 +1,24 @@
+File System:-
+"fs" is hte pre defined module used to interact with the flst files.
+"fs" stands for the file System
+Ex;- json files,xml files,text files
+1-readFile() - it is used to read the data from files Assynchronously.
+2-readFileSync() - it is used to read the data from files in Synchronously.
+
+Note-Assynchronously is suggestable rather than Synchronous
+3-writeFile(arg1,arg2,arg3) - it is used to write the data in Assynchronously.
+4- writeFileSync(arg1,arg2) - it is used to write the data in Synchronously.
+5- appendFile() - it is used to append the data Assynchronously.
+6- appendFileSync()- it is used to append the data Synchronously.
+Three operations are there In fs module
+How to open the File
+How to close the File
+How to delete the File
+7-open() -it is used to open the file Assynchrnously
+8-openFileSync()- it is used to open the file in Synchronously.
+9-close()- it is used to close the files Asynchronously.
+10-closeSync()- it is used to close the files in Synchronously.
+12.	unLink()- it is used to delete the files in Asynchronously.
+13.	unLinkSync() – it is used to delete the files in Synchronously.
+14.	truncate() – it is used to Delete the data Asynchronously.
+15.	truncateSync() -it is used to delete the data Synchronously.
